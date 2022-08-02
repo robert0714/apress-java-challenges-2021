@@ -14,11 +14,9 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
+				<version>3.10.1</version>
 				<configuration>
-					<release>17</release>
-					<!-- Wichtig für Java 14 Preview Syntax-Neuerungen -->
-					<compilerArgs>--enable-preview</compilerArgs>
+					<release>17</release> 
 				</configuration>
 			</plugin>
 			<plugin>
@@ -40,7 +38,7 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.7</version>
+				<version>0.8.8</version>
 			</plugin>
 
 		</plugins>
@@ -78,7 +76,7 @@
 		<dependency>
 			<groupId>org.assertj</groupId>
 			<artifactId>assertj-core</artifactId>
-			<version>3.21.0</version>
+			<version>3.23.1</version>
 			<scope>test</scope>
 		</dependency>
 
